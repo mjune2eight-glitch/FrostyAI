@@ -1,21 +1,21 @@
 
-&lt;manifest xmlns:android="http://schemas.android.com/apk/res/android"&gt;
-    &lt;uses-permission android:name="android.permission.INTERNET" /&gt;
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET" />
 
-    &lt;application
+    <application
         android:allowBackup="false"
         android:label="Frosty AI"
         android:theme="@android:style/Theme.Material.NoActionBar"
-        android:usesCleartextTraffic="false"&gt;
+        android:usesCleartextTraffic="false">
 
-        &lt;activity
+        <activity
             android:name=".MainActivity"
-            android:exported="true"&gt;
-            &lt;intent-filter&gt;
-                &lt;action android:name="android.intent.action.MAIN" /&gt;
-                &lt;category android:name="android.intent.category.LAUNCHER" /&gt;
-            &lt;/intent-filter&gt;
-        &lt;/activity&gt;
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
-    &lt;/application&gt;
-&lt;/manifest&gt;
+    </application>
+</manifest>
